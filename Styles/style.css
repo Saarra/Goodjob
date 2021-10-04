@@ -1,0 +1,266 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: Serif;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 3%;
+}
+p {
+  text-align: left;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #5f5f5f;
+}
+
+/* CSS Header  */
+.header {
+  background: #fff9ef;
+}
+.desc-phone h1 {
+  text-align: left;
+}
+
+.desc-phone img {
+  margin: 2%;
+}
+.desc-phone {
+  margin: 5%;
+}
+.phone {
+  height: 853px;
+  background: url("../Assets/BG-phone.svg") no-repeat;
+}
+
+/* CSS Fonctionnalités */
+.card-1 {
+  margin: 2%;
+  border: 1px solid #2a686a40;
+  border-radius: 30px;
+}
+.card-2 {
+  margin: 2%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 8px 30px 46px #00000014;
+  border-radius: 30px;
+}
+.card-3 {
+  margin: 2%;
+  border: 1px solid #2a686a40;
+  border-radius: 30px;
+}
+
+.fonctionnalites .card-1 h2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 36px;
+  color: #000000;
+  line-height: 100px;
+  text-align: center;
+  background: #f6c669 0% 0% no-repeat padding-box;
+  margin: 10% 30%;
+}
+.fonctionnalites .card-2 h2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 36px;
+  color: #000000;
+  line-height: 100px;
+  text-align: center;
+  background: #24b9bf 0% 0% no-repeat padding-box;
+  margin: 10% 30%;
+}
+
+.fonctionnalites .card-3 h2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 36px;
+  color: #000000;
+  line-height: 100px;
+  text-align: center;
+  background: #f68a69 0% 0% no-repeat padding-box;
+  margin: 10% 30%;
+}
+
+.fonctionnalites h6 {
+  text-align: center;
+  font: normal normal bold 32px/48px PT Serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.fonctionnalites p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: "Roboto";
+  letter-spacing: 0px;
+  color: #5f5f5f;
+}
+
+/* CSS Services */
+.service {
+  border-radius: 15px;
+  background: #24b4bb0a 0% 0% no-repeat padding-box;
+}
+.service img {
+  height: 300px;
+  width: 500px;
+}
+
+.video-1 {
+  background: url("../Assets/BG-video-1.svg") 0% 0% no-repeat padding-box;
+}
+
+.video-2 {
+  background: url("../Assets/BG-video-2.svg") 0% 0% no-repeat padding-box;
+}
+.service h2 {
+  font-family: serif;
+  font-weight: bold;
+}
+
+/* CSS fonctionnalites */
+
+.feature .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(248, 196, 103, 0.25);
+}
+
+.feature {
+  background-image: url("../Assets/BG-point-2.svg");
+}
+.feature h5 {
+  font-weight: bold;
+  font-family: Serif;
+}
+.feature p {
+  text-align: left;
+}
+/* CSS Témoignage */
+.tem-1,
+.tem-2,
+.tem-3 {
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+  padding: 2%;
+  margin: 2%;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: rgba(248, 196, 103, 1);
+}
+.temoignage h6 {
+  color: rgba(95, 95, 95, 1);
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: normal;
+  text-align: left;
+}
+
+/* CSS Questions  */
+.questions {
+  background: rgba(255, 249, 239, 1) 0% 0% no-repeat padding-box;
+}
+
+.newsletter {
+  background: url(../Assets/BG-newsletter.svg) no-repeat;
+  padding: 8%;
+}
+
+.newsletter .question-title {
+  text-align: center;
+  font-family: serif;
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+  text-transform: capitalize;
+}
+
+.newsletter p {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: rgba(95, 95, 95, 1);
+}
+.mail {
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 6px 10px 21px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+.e-mail {
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  width: 240px;
+}
+.e-mail:focus {
+  outline: none;
+}
+.btn {
+  background-color: rgba(36, 180, 187, 1);
+  margin: 0 2%;
+}
+.icon-send {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* CSS Footer  */
+.footer {
+  margin: 5%;
+  font-family: "Roboto";
+}
+span {
+  font-weight: bold;
+  color: #000000;
+}
+
+.copyright {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 16px;
+  color: rgba(95, 95, 95, 1);
+}
+.copyright h6 {
+  width: 80%;
+  border-top: solid 1px #3f3f3f;
+  padding: 15px;
+}
+
+.footer-icons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-icons img {
+  padding: 35%;
+}
